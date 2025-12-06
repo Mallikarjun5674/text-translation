@@ -9,6 +9,7 @@ const TranslateApp = () => {
   const languages = [
     /*{ code: 'es', name: 'Spanish' },
     { code: 'fr', name: 'French' }, */
+     { code: '', name : ''},
     { code: 'kn', name: 'Kannada' },
     { code: 'hi', name: 'Hindi' },
     { code: 'zh', name: 'Chinese' },
@@ -45,7 +46,7 @@ console.log(targetLang);
   return (
    <div className="flex items-center justify-center min-h-screen bg-gray-100">
   <div className="w-96 flex flex-col items-center space-y-4">
-    <h1 className="text-2xl font-bold text-zinc-700">Text Translator</h1>
+    <h1 className="text-3xl font-bold text-zinc-700 items-center justify-center flex">Text Translator</h1>
 
     <textarea
       className="w-full p-2 border border-gray-300 rounded"
